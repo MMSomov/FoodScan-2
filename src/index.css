@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #F9F7F2;
+    color: #1c1917;
+    font-family: 'Helvetica Neue', Arial, -apple-system, sans-serif;
+  }
+}
+
+.editorial-heading {
+  font-family: 'Georgia', serif;
+  letter-spacing: -0.02em;
+}
+
+.rule-line {
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.editorial-card {
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.editorial-tag {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 4px 8px;
+  border-radius: 2px;
+  font-weight: 700;
+}
+
+.editorial-tag-danger {
+  background-color: #FEE2E2;
+  color: #991B1B;
+  border: 1px solid rgba(153, 27, 27, 0.15);
+}
+
+.editorial-tag-warning {
+  background-color: #FEF3C7;
+  color: #92400E;
+  border: 1px solid rgba(146, 64, 14, 0.15);
+}
+
+.editorial-tag-safe {
+  background-color: #D1FAE5;
+  color: #065F46;
+  border: 1px solid rgba(6, 95, 70, 0.15);
+}
