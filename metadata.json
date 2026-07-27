@@ -1,0 +1,6 @@
+{
+  "name": "Food Ingredient Label Analyzer",
+  "description": "Scan ingredient labels or paste ingredient lists to analyze potential allergens, harmful additives, carcinogenicity, and discover healthier food alternatives.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
